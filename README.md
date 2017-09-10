@@ -1,4 +1,5 @@
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is my first commit!!
 
 ## How to use this template
 
