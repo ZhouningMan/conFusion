@@ -1,3 +1,4 @@
+import { DishdetailPage } from './../pages/dishdetail/dishdetail';
 import { baseURL } from './../shared/baseurl';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
@@ -24,7 +25,8 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
     HomePage,
     ContactPage,
     AboutPage,
-    MenuPage
+    MenuPage,
+    DishdetailPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
     HomePage,
     ContactPage,
     AboutPage,
-    MenuPage
+    MenuPage,
+    DishdetailPage
   ],
   providers: [
     StatusBar,
